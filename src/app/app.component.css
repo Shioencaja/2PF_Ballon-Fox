@@ -1,0 +1,12 @@
+.page_wrapper {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.sidenav {
+  height: 100%;
+  max-width: 250px;
+}
+main {
+  width: 100%;
+}
