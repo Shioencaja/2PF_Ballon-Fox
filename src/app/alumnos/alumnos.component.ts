@@ -8,6 +8,7 @@ import { FormBuilder } from '@angular/forms';
   styleUrls: ['./alumnos.component.css'],
 })
 export class AlumnosComponent implements OnInit {
+  public titulo = 'Lista de Alumnos';
   public editar = false;
   displayedColumns: string[] = ['alumno', 'asistencias', 'acciones'];
   dataSource = this.servicio.obtenerAlumnos();

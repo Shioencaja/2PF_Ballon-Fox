@@ -8,6 +8,7 @@ import { AlumnosService } from '../services/alumnos.service';
   styleUrls: ['./inscripciones.component.css'],
 })
 export class InscripcionesComponent {
+  public titulo = 'Inscripciones';
   onSubmit() {
     this.listaAlumnos.push({
       alumno: {

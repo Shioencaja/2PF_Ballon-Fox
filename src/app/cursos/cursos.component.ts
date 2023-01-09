@@ -7,6 +7,7 @@ import { CursosService } from '../services/cursos.service';
   styleUrls: ['./cursos.component.css'],
 })
 export class CursosComponent {
+  public titulo = 'Lista de Cursos';
   displayedColumns: string[] = ['curso', 'dificultad'];
   dataSource = this.servicio.obtenerCursos();
   constructor(private servicio: CursosService) {}

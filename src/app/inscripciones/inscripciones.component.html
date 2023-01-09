@@ -1,4 +1,4 @@
-<app-toolbar></app-toolbar>
+<app-toolbar [titulo]="titulo"></app-toolbar>
 <form class="formulario" [formGroup]="formularioABM" (ngSubmit)="onSubmit()">
   <mat-form-field>
     <mat-label>Nombres</mat-label>
@@ -15,7 +15,7 @@
       matInput
       placeholder="Ej. Gonzales"
       value="Gabriel"
-      formControlName="alumno.nombres"
+      formControlName="apellidos"
     />
   </mat-form-field>
   <button mat-flat-button color="primary" type="submit">Enviar</button>
